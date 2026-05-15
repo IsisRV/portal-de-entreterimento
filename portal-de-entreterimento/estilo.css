@@ -1,0 +1,48 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container principal usando Flexbox */
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo padrão das seções */
+.secao {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 8px gray;
+    text-align: center;
+}
+
+/* Padronização dos títulos */
+.titulo-secao {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Padronização das imagens */
+.imagem {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Estilo individual com IDs */
+#filmes {
+    border-top: 5px solid red;
+}
+
+#musica {
+    border-top: 5px solid green;
+}
+
+#games {
+    border-top: 5px solid blue;
+}
